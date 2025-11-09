@@ -46,3 +46,14 @@ chroot_list_file=/etc/vsftpd.chroot_list
 ## Crea el archivo de lista de usuarios no enjaulados
     Solo que remos que maria pueda salir de su carpeta 
     echo "maria" | sudo tee /etc/vsftpd.chroot_list
+
+## Reiniciamos el servidor 
+    sudo systemctl restart vsftpd
+
+## Creamos los usuario locales
+    sudo useradd -m luis
+    sudo passwd luis
+    sudo useradd -m maria
+    sudo passwd maria
+    sudo useradd -m miguel
+    sudo passwd miguel
