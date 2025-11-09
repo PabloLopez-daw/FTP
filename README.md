@@ -85,6 +85,9 @@ ssl_tlsv1=YES
 ssl_sslv2=NO
 ssl_sslv3=NO
 
-## 13 Nos volvemos a conectar con fillezilla 
+## 13. Nos volvemos a conectar con fillezilla 
 Ponemos la ip : 192.168.56.105 , usuario luis, passwd luis, puerto 21
 
+## 14. Copiamos los archivos de configuracion del servidor ftp y los copiamos en /vagrant/config 
+sudo cp /etc/vsftpd.conf /vagrant/config/
+sudo cp /etc/vsftpd.conf /vagrant/config/
