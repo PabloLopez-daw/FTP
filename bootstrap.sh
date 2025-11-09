@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 set -e
 
 echo "=== [1/8] Actualizando paquetes ==="
