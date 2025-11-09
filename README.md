@@ -9,3 +9,6 @@
 
     lo que hace esto es actualizar la maquina y ademas instala un servidor ftp y hace una copia de la configuracion 
     y le damos permiso de ejecucion al script 
+
+## 3 hacemos un vagrant up 
+
