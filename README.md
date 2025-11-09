@@ -15,7 +15,7 @@
 ## 4 Comprovamos que el demonio de FTP esta instalado
 
 ## 5 Configuramos el servidor en el /etc/vsftpd.conf
-# Servidor independiente (solo IPv4)
+ Servidor independiente (solo IPv4)
 listen=YES
 listen_ipv6=NO
 
@@ -42,3 +42,7 @@ anon_max_rate=2097152
 chroot_local_user=YES
 chroot_list_enable=YES
 chroot_list_file=/etc/vsftpd.chroot_list
+
+## Crea el archivo de lista de usuarios no enjaulados
+    Solo que remos que maria pueda salir de su carpeta 
+    echo "maria" | sudo tee /etc/vsftpd.chroot_list
